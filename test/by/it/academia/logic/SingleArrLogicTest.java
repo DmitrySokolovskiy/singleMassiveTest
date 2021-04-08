@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class SingleArrLogicTest {
     @Test
-    public void replaceMaxMin() {
+    public void replaceMaxMinSuit() {
         SingleArrLogic srLogic = new SingleArrLogic();
         int[] arr = {1, 2, 3, 4, -5};
         int[] realResult = srLogic.replaceMaxMin(arr);
@@ -17,7 +17,7 @@ public class SingleArrLogicTest {
     }
 
     @Test
-    public void searchFirstPositiveNumber() {
+    public void searchFirstPositiveNumberSuit() {
         SingleArrLogic srLogic = new SingleArrLogic();
         int[] arr = {1, 2, 3, 4, -5};
         int realResult = srLogic.searchFirstPositiveNumber(arr);
@@ -27,7 +27,7 @@ public class SingleArrLogicTest {
     }
 
     @Test
-    public void searchFirstNegativeNumber() {
+    public void searchFirstNegativeNumberSuit() {
         SingleArrLogic srLogic = new SingleArrLogic();
         int[] arr = {1, 2, 3, 4, -5};
         int realResult = srLogic.searchFirstNegativeNumber(arr);
